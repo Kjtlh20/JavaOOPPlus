@@ -1,3 +1,8 @@
+/* 4)Используя реализацию BiPredicate<Integer, String> реализуйте удаление из Map<Integer, String>
+ * всех пар ключ-значение для которых длинна строки значения не равна ключу этого значения.
+ * Например такая пара как {3: «Hello»} должна быть удалена так как длинна «Hello» не равна 3, а
+ * пара вида {4: «Java»} останется.
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.HashMap;
