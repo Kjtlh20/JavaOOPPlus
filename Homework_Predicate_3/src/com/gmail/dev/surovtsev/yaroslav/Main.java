@@ -17,9 +17,9 @@ public class Main {
 
         int age = 5;
         String letter = "C";
-        Predicate<Cat> pr1 = cat -> cat.getAge() < age;
-        Predicate<Cat> pr2 = cat -> cat.getName().substring(0, 1).toUpperCase().compareTo(letter.toUpperCase()) > 0;
-        cats.removeIf(pr1.and(pr2));
+        Predicate<Cat> filter1 = cat -> cat.getAge() < age;
+        Predicate<Cat> filter2 = cat -> cat.getName().substring(0, 1).toUpperCase().compareTo(letter.toUpperCase()) > 0;
+        cats.removeIf(filter1.and(filter2));
         System.out.println(cats);
     }
 }
