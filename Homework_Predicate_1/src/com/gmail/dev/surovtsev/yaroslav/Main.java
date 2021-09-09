@@ -1,3 +1,6 @@
+/* 1) С помощью реализации Predicate<String> реализуйте удаление со списка
+ * строк начинающихся с определенной буквы. Например удалить все строки которые начинаются на букву F.
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.ArrayList;
