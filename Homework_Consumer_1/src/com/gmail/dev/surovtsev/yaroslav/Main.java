@@ -1,3 +1,6 @@
+/* 1)Реализуйте Consumer<Integer> с помощью которого выведите на экран все
+ * нечетные числа содержащиеся в List<Integer>.
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.ArrayList;
