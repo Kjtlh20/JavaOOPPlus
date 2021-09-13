@@ -1,7 +1,7 @@
 /* 2) Создайте реализацию UnaryOperator<String> где результатом будет строка в
  * которой исключены все символы кроме цифровых. Т.е. если входящим параметром
  * является строка вида «Hello 123 world» результатом будет строка «123».
- */
+ * */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.function.UnaryOperator;
