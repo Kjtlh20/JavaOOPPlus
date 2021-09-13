@@ -1,3 +1,6 @@
+/* 3) Реализуйте BiConsumer<String, File> добавляющий строку в конец файла
+ * указанного в качестве параметра.
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.io.*;
