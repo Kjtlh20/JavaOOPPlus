@@ -1,3 +1,6 @@
+/* 2)Реализуете Consumer<String> с побочным эффектом в виде занесения всех
+ * строк содержащих цифры во вспомогательный список.
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.ArrayList;
