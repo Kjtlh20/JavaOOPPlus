@@ -1,3 +1,5 @@
+/* 1) Используя Collector напишите свою реализацию метода Collectors.toSet()
+ */
 package com.gmail.dev.surovtsev.yaroslav;
 
 import java.util.HashSet;
